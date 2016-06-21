@@ -9,3 +9,31 @@ h1 {
     color: rgb(119, 58, 52);
     font-family: sans-serif;
 }
+
+#list_1 {
+    /* ID */
+    color: rgb(90, 124, 49);
+    font-variant: small-caps;
+    font-variant-numeric: normal;
+    font-stretch: extra-condensed;
+    font-style: italic;
+    font-family: monospace;
+}
+
+#item_1 {
+    color: rgb(69, 165, 221);
+    font-style: oblique;
+    font-family: cursive;
+}
+
+li.link {
+    /* class */
+    /* perceba que usei o "li.link", isso significa que estas formatações só correspondem à .link que sejam li, como em classes de programação normal
+
+    Podemos tabém usar algo mais elevado, fazendo com que estruturas dentro de determinadas tags sejam definidas. No caso, teriamos o seguinte: body p ul li.link */
+
+    color: rgb(161, 59, 135);
+    font-kerning: normal;
+    font-stretch: extra-expanded;
+    font-family: fantasy;
+}
